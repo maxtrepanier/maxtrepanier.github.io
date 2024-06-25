@@ -9,37 +9,53 @@ redirect_from:
 
 {% include base_path %}
 
-Education
+Skills
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+
+Programming
+-----------
+* Python
+* C++
+* Mathematica
+Also [...]
+
+Machine learning
+----------------
+* Pandas
+* Scikit-learn
+* Tensorflow
+
+Research
+--------
+
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Postdoctoral Fellow (Technion), 2023-2024
 
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
+* Research Assistant (King's College London), 2022-2023
+
+* Postdoctoral Fellow (Perimeter Institute), 2022
+
+* Postdoctoral Fellow (Institute for Theoretical and Mathematical Physics,
+  Moscow), 2021-2022
+
+
+* Teaching Assistant (King's College London), 2017-2021
+    * Numerical methods
+    * Advanced Quantum Mechanics
+    * Calculus 1
+    * Groups and Symmetries
+    * Geometry of Surfaces
+    * Dynamical Systems
+
+
+Education
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* PhD in Applied Mathematics: Theoretical Physics (King's College London), 2021
+* MSc in Physics (Université Laval), 2017
+* BSc in Physics (Université Laval), 2015
 
 Publications
 ======
@@ -58,7 +74,3 @@ Teaching
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams

@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-UK"
-title                    : "Maxime Trepanier / Home page"
+title                    : "Maxime Trepanier"
 title_separator          : "-"
 name                     : &name "Maxime Trepanier"
 description              : &description "Theoretical physicist"
@@ -21,9 +21,9 @@ repository               : "maxtrepanier/maxtrepanier.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile2.jpg"
   name             : "Maxime Trepanier"
-  pronouns         : "he/him"  
+  pronouns         : # "he/him"  
   bio              : "Theoretical physicist"
   location         : "UK"
   employer         : "Technion"
@@ -31,7 +31,7 @@ author:
   email            : "trepanier.maxime@gmail.com" 
 
   # Academic websites
-  arxiv            : "https://arxiv.org/search/hep-th?searchtype=author&query=Tr\%C3\%A9panier,+M" # URL - Update with the correct link to your profile
+  arxiv            : # URL - Update with the correct link to your profile
   googlescholar    : "https://scholar.google.com/citations?user=Gic_KpwAAAAJ&hl=en"
   impactstory      : # URL
   orcid            : "https://orcid.org/0000-0003-3117-5703"
@@ -47,7 +47,7 @@ author:
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : # "bsky.app" # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
@@ -136,7 +136,7 @@ social:
 
 # Analytics
 analytics:
-  provider               :  "google-universal" # false (default), "google", "google-universal", "google-analytics-4", "custom"
+  provider               :  false # false (default), "google", "google-universal", "google-analytics-4", "custom"
   google:
     tracking_id          :
 
@@ -200,32 +200,32 @@ kramdown:
 # Collections
 collections:
   teaching:
-    output: true
+    output: false
     permalink: /:collection/:path/
   publications:
     output: true
     permalink: /:collection/:path/
   portfolio:
-    output: true
+    output: false
     permalink: /:collection/:path/
   talks:
-    output: true
+    output: false
     permalink: /:collection/:path/
 
 
 # Defaults
 defaults:
   # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
+  #- scope:
+  #path: ""
+  #type: posts
+  #values:
+  #layout: single
+  #author_profile: true
+  #read_time: true
+  #comments: true
+  #share: true
+  #related: true
   # _pages
   - scope:
       path: ""
@@ -234,14 +234,14 @@ defaults:
       layout: single
       author_profile: true
   # _teaching
-  - scope:
-      path: ""
-      type: teaching
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
+  #- scope:
+  #path: ""
+  #type: teaching
+  #values:
+  #layout: single
+  #author_profile: true
+  #share: true
+  #comments: true
   # _publications
   - scope:
       path: ""
