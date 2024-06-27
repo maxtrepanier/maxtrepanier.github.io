@@ -2,7 +2,7 @@
 title: "Quantum holographic surface anomalies"
 collection: talks
 type: "Talk"
-permalink: /talks/2024-05-16
+permalink: /talks/jc-defects
 venue: "JC on CFTs, defects & related topics"
 date: 2024-05-16
 location: "Haifa, Israel"

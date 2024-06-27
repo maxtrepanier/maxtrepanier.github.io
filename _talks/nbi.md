@@ -2,7 +2,7 @@
 title: "Probing Nonlagrangian Theories via Surface Operators"
 collection: talks
 type: "Talk"
-permalink: /talks/2023-03-30
+permalink: /talks/nbi
 venue: "NBI, Joint Theory Seminar"
 date: 2023-03-30
 location: "Copenhagen, Denmark"
