@@ -1,7 +1,17 @@
 ---
-title: "Portfolio item number 1"
+title: "Scaling law in gaussian process regression"
 excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
 collection: portfolio
 ---
+
+Key  points to address:
+ - challenges
+ - mistakes/failiures
+ -enjoyed
+ - leadership
+ - conflicts    
+ - what you'd do differently
+
+Describe as SAR
 
 This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 

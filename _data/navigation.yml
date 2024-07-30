@@ -10,6 +10,7 @@ main:
 #    url: /teaching/    
     
   - title: "Portfolio"
+    # url: /portfolio/
     url: https://github.com/maxtrepanier
         
 #  - title: "Blog Posts"
